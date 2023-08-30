@@ -112,12 +112,12 @@ flex-shrink: 0;
     width: 1539px;
     height: 839.8px;
     flex-shrink: 0;
-    margin-top: 49px;
-    margin-left: 58px;
 }
 
 .container-main {
     position: relative;
+    top: 49px;
+    left: 58px;
 }
 
 .container {
@@ -126,11 +126,15 @@ flex-shrink: 0;
 
 .background-image {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: auto;
     z-index: -1; 
+}
+
+.image-container {
+    width: 1804px;
+height: 558px;
+flex-shrink: 0;
 }
 
 .Kidsstory,
@@ -154,18 +158,3 @@ flex-shrink: 0;
     left: 193px;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end; /* Align contents to the right */
-}
-
-.image-container {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.form-container {
-    flex: 1;
-    
-}
