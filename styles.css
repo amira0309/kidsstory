@@ -26,16 +26,15 @@ flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px
 }
 .logo {
-    padding-top: 34px;
+    margin-top: 2px;
     margin-left: 250px
 }
 
 .navbar {
     margin-left: 76px;
-    margin-top: 58px;
+    margin-top: 26px;
     
 }
 
@@ -82,7 +81,91 @@ flex-shrink: 0;
 }
 
 .call {
-    margin-top: 58px;
+    margin-top: 25px;
     margin-left: 90px;
 }
 
+.social {
+    margin-top: 24px;
+    margin-left: 23px;
+}
+
+.navigation__button {
+    border-radius: 50px;
+    background: #8081BD;
+    width: 192px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 14px;
+    margin-left: 30px;
+    border: none;
+}
+
+.container {
+    width: 1539px;
+    height: 839.8px;
+    flex-shrink: 0;
+    margin-top: 49px;
+    margin-left: 58px;
+}
+
+.container-main {
+    position: relative;
+}
+
+.container {
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1; 
+}
+
+.Kidsstory,
+.Englishclub,
+.Arrows {
+    position: absolute;
+}
+
+.Kidsstory {
+    top: 176px;
+    left: 193px;
+}
+
+.Englishclub {
+    top: 304px;
+    left: 193px;
+}
+
+.Arrows {
+    top: 451px;
+    left: 193px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align contents to the right */
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form-container {
+    flex: 1;
+    
+}
