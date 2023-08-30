@@ -6,13 +6,17 @@
     <title>Kids story</title>
     <link rel="icon" href="/assets/icons/children_corner_kids_letters_nursery_word_icon_146729.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@300&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
         <div class="address">
-            <img src="/assets/icons/Москва, ул. Муравская д.38, к.1.png" alt="address1">
-            <img src="assets/icons/ЖК Мир Митино М. Пятницкое шоссе.png" alt="address2">
+            <img class="address1"src="/assets/icons/Москва, ул. Муравская д.38, к.1.png" alt="address1">
+            <img class="address2" src="assets/icons/ЖК Мир Митино М. Пятницкое шоссе.png" alt="address2">
         </div>
+        <header class="header">
         <div class="logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="192" height="52" viewBox="0 0 192 52" fill="none">
                 <path d="M0 0.828125H2.37067V1.37208H0.673855V1.97287H1.48573C1.84295 1.97287 2.11087 2.04594 2.2976 2.19207C2.48433 2.33821 2.57364 2.55742 2.57364 2.83345C2.57364 3.12573 2.4681 3.35305 2.26513 3.51543C2.06216 3.6778 1.76177 3.75899 1.3883 3.75899H0V0.828125ZM1.35583 3.26375C1.52632 3.26375 1.66434 3.23127 1.75365 3.1582C1.84295 3.09325 1.89167 2.98771 1.89167 2.85781C1.89167 2.59801 1.71305 2.46811 1.35583 2.46811H0.673855V3.25563H1.35583V3.26375Z" fill="#F6B31F"/>
@@ -58,13 +62,37 @@
                 <path d="M192 19.7042L183.532 42.6477C182.672 45.1726 181.608 46.6665 180.342 47.6976C179.075 48.7286 177.573 49.1346 175.754 49.1995C175.332 49.2158 175.227 49.232 174.593 49.232C173.554 49.232 172.499 49.2158 172.499 49.2158V44.4988C173.952 44.4988 173.376 44.5475 175.202 44.4014C176.233 44.3202 176.932 43.898 177.394 43.4758C177.857 43.0536 178.279 42.6396 178.653 41.6653L178.726 41.4624L170.607 19.696H176.217L181.478 34.2611L186.78 19.696H192V19.7042Z" fill="#F6B31F"/>
             </svg>
         </div>
-        <nav class="navigation">
-            <a class="navigation__link" href="/haflkdhfs">О нас</a>
-            <a class="navigation__link" href="/">Расписание</a>
-            <a class="navigation__link" href="/">Программа</a>
-            <a class="navigation__link" href="/haflkdhfs">Фото и видео</a>
-            <a class="navigation__link" href="/">Команда</a>
-            <a class="navigation__link" href="/">Контакты</a>
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="dropdown">
+                    <a href="#">О нас</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Сервис 1</a></li>
+                        <li><a href="#">Сервис 2</a></li>
+                        <li><a href="#">Сервис 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a  class="navigation__link" href="/cc;">Расписание</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a  class="navigation__link" href="/jkc">Программа</a>
+                    <ul class="dropdown-content">
+                        <li><a  class="navigation__link" href="/xx">Программа 1</a></li>
+                        <li><a  class="navigation__link" href="/jcx">Программа 2</a></li>
+                        <li><a  class="navigation__link" href="/jk">Программа 3</a></li>
+                    </ul>
+                </li>
+                <li><a class="navigation__link" href="/ib">Фото и видео</a></li>
+                <li><a class="navigation__link" href="/xs">Команда</a></li>
+                <li><a class="navigation__link" href="/hdd">Контакты</a></li>
+            </ul>
+        </nav>
             <div class="call">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                     <circle cx="7" cy="7" r="7" fill="#EA5D4A"/>
@@ -94,8 +122,8 @@
                 </div>
             </section>
             <form class="row g-3">
-                <img src="/assets/icons/Запишитесь на персональную экскурсию.png">
-                <img src="/assets/icons/Заполните форму и посмотрите детский сад вживую в удобное для вас время.png">
+                <img src="/assets/icons/Запишитесь на персональную экскурсию.png" alt="персональная экскурсия">
+                <img src="/assets/icons/Заполните форму и посмотрите детский сад вживую в удобное для вас время.png" alt="форма">
                 <div class="col-12">
                     <label for="inputname" class="form-label"></label>
                     <input type="text" class="form-control" id="inputname" placeholder="Ваше имя">
@@ -126,9 +154,9 @@
                 </div>
             </section>
             <section>
-                <img src="/assets/images/Group 6.png">
-                <img src="/assets/icons/Есть вопросы_ Получите бесплатную консультацию (1).png">
-                <img src="/assets/icons/Оставьте телефон и мы перезвоним и расскажем все подробности о филиале.png">
+                <img src="/assets/images/Group 6.png" alt="форма" >
+                <img src="/assets/icons/Есть вопросы_ Получите бесплатную консультацию (1).png" alt="консультация">
+                <img src="/assets/icons/Оставьте телефон и мы перезвоним и расскажем все подробности о филиале.png" alt="Оставьте телефон">
                 <div class="col-12">
                         <label for="inputphone" class="form-label"></label>
                         <input type="text" class="form-control" id="inputphone" placeholder="+7_ _ _ * _ _ _ * _ _* _ _ ">
