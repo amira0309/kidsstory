@@ -297,3 +297,11 @@ flex-shrink: 0;
     line-height: normal;
     padding: 10px 20px;
 }
+.team__hd{
+    color: #8081BD;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+}
