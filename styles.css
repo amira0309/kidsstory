@@ -129,6 +129,9 @@ flex-shrink: 0;
     width: 100%;
     height: auto;
     z-index: -1; 
+    width: 1804px;
+height: 558px;
+flex-shrink: 0;
 }
 
 .image-container {
@@ -158,150 +161,97 @@ flex-shrink: 0;
     left: 193px;
 }
 
-.advantages__hd,
-.dop-services__hd,
-.video-gallery__hd {
-    color: #8081BD;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.container-main {
+    position: relative;
 }
 
-.main__dop-services,
-.main__video-gallery-advantages {
-    width: 1400px;
-    margin-left: 50px;
+.image-container {
+    position: relative;
 }
 
-.dop-services__container {
-    display: flex;
-    flex-direction: row;
-    padding: 5px 5px;
-    width: 1200px;
-    justify-content: space-between;
+.form-container {
+    position: absolute;
+    top: 154px;
+    margin-left: 1458px;
+    padding: 38px;
+
 }
 
-.dop-services__point {
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    background: #FFF6D1;
-    margin: 0px 5px;
-    padding: 5px 10px;
+.image-container1 {
+    position: absolute;
+    top: 70px;
+    margin-left: 38px;
 }
 
-.dop-services__point__box {
-    background: #FFF;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.rowg-3 {
+    position: absolute;
+    top: 300px;
+    margin-left: 38px;
 }
 
-.dop-services__point__text {
-    color: black;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 10px 20px;
+.col-12 {
+    border: none;
+    border-radius: 50px;
+    width: 308px;
+height: 40px;
+flex-shrink: 0;
+background: #FFF;
+margin-bottom: 6px; 
 }
 
-.video-gallery__par{
-    color: black;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+.form-control {
+    border: none;
+font-family: 'Montserrat', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+text-align: center;
+    margin-left: 20px;
+    padding-top: 14px;
 }
 
-.advantages__container {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
+input::placeholder {
+    color: #334155;
 }
 
-.advantages__par {
-    color: black;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.form-check {
+    margin-top: 24px;
+    margin-left: 5px;
+}
+.form-check-label {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
-.advantages__point {
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    margin: 0px 5px;
-    padding: 5px 10px;
+.btn-primary {
+    width: 308px;
+height: 40px;
+flex-shrink: 0;
+    border-radius: 50px;
+background: #EA5D4A;
+border: none;
 }
 
-.advantages__point__boxmaster,
-.advantages__point__boxgames,
-.advantages__point__boxconference,
-.advantages__point__boxexperiments,
-.advantages__point__boxconcerts,
-.advantages__point__boxcompetitions {
-    padding: 5px;
-    border-radius: 10px;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.custom-btn {
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 29px;
 }
 
-.advantages__point__boxmaster {
-    background: #F6B31F;
+.vector {
+    margin-top: 87px;
 }
 
-.advantages__point__boxgames{
-    background: #F3ACC8;  
-}
 
-.advantages__point__boxconference {
-    background: #8081BD;
-}
-
-.advantages__point__boxexperiments {
-    background: #0E95D3;
-}
-
-.advantages__point__boxconcerts {
-    background: #F6B31F;
-}
-
-.advantages__point__boxcompetitions {
-    background: #F3ACC8; 
-}
-
-.point__boxcompetitions__img {
-    width: 90%;
-    height: 80%;
-}
-
-.advantages__point__text {
-    color: black;
-    font-family: Montserrat;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 10px 20px;
-}
-.team__hd{
-    color: #8081BD;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;  
-}
