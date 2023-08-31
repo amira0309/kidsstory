@@ -169,9 +169,9 @@ flex-shrink: 0;
     line-height: normal;
 }
 
-.main__dop-services {
-    width: 1200px;
-    height: 300px;
+.main__dop-services,
+.main__video-gallery-advantages {
+    width: 1500px;
 }
 
 .dop-services__container {
