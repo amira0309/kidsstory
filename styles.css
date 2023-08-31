@@ -172,6 +172,7 @@ flex-shrink: 0;
 .main__dop-services,
 .main__video-gallery-advantages {
     width: 1500px;
+    margin-left: 250px;
 }
 
 .dop-services__container {
