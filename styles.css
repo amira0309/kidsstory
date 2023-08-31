@@ -167,12 +167,12 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    }
+}
 
 .main__dop-services {
     width: 1200px;
-    height: 241px;
-    }
+    height: 300px;
+}
 
 .dop-services__container {
     display: flex;
@@ -180,7 +180,7 @@ flex-shrink: 0;
     padding: 5px 5px;
     width: 1200px;
     justify-content: space-between;
-    }
+}
 
 .dop-services__point {
     display: flex;
@@ -188,8 +188,8 @@ flex-shrink: 0;
     border-radius: 10px;
     background: #FFF6D1;
     margin: 0px 5px;
-    padding: 5px 5px;
-    }
+    padding: 5px 10px;
+}
 
 .point_box {
     background: #FFF;
@@ -197,7 +197,7 @@ flex-shrink: 0;
     height: 50px;
     display: flex;
     align-items: center;
-    }
+}
 
 .point_text {
     color: black;
@@ -208,13 +208,29 @@ flex-shrink: 0;
     font-weight: 700;
     line-height: normal;
     padding: 10px 20px;
-    }
+}
+
+.main__video-gallery {
+}
+
+.video-gallery__par{
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main__advantages {
+
+}
 
 .advantages__container {
     display: grid;
     grid-template-rows: repeat(3 1fr);
     grid-template-columns:  repeat(3 1fr);
-    }
+}
 
 .advantages__par {
     color: black;
@@ -224,4 +240,3 @@ flex-shrink: 0;
     font-weight: 700;
     line-height: normal;
     }
-
