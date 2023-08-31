@@ -305,3 +305,10 @@ flex-shrink: 0;
     font-weight: 700;
     line-height: normal;  
 }
+.main__team{
+    margin-left: 50px;
+}
+.arr{
+    width: 60px;
+    height: 60px;
+}
