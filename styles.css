@@ -254,37 +254,6 @@ margin-top: 29px;
     margin-top: 87px;
 }
 
-
-.advantages__point__boxconference {
-    background: #8081BD;
-}
-
-.advantages__point__boxexperiments {
-    background: #0E95D3;
-}
-
-.advantages__point__boxconcerts {
-    background: #F6B31F;
-}
-
-.advantages__point__boxcompetitions {
-    background: #F3ACC8; 
-}
-
-.point__boxcompetitions__img {
-    width: 90%;
-    height: 80%;
-}
-
-.advantages__point__text {
-    color: black;
-    font-family: Montserrat;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 10px 20px;
-}
 .team__hd{
     color: #8081BD;
     font-family: Montserrat;
@@ -301,6 +270,7 @@ margin-top: 29px;
     height: 60px;
 }
 
+
 .advantages__hd,
 .dop-services__hd,
 .video-gallery__hd {
@@ -314,8 +284,8 @@ margin-top: 29px;
 
 .main__dop-services,
 .main__video-gallery-advantages {
-      width: 1400px;
-      margin-left: 50px;
+    width: 1400px;
+    margin-left: 50px;
 }
 
 .dop-services__container {
