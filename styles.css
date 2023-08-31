@@ -292,7 +292,7 @@ margin-top: 29px;
     display: flex;
     flex-direction: row;
     padding: 5px 5px;
-    width: 1200px;
+    width: 1250px;
     justify-content: space-between;
 }
 
@@ -314,7 +314,8 @@ margin-top: 29px;
     justify-content: center;
 }
 
-.dop-services__point__text {
+.dop-services__point__text,
+.dop-services__point__textfirst {
     color: black;
     text-align: center;
     font-family: Montserrat;
@@ -322,7 +323,14 @@ margin-top: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.dop-services__point__text {
     padding: 10px 20px;
+}
+
+.dop-services__point__textfirst {
+    padding: 5px 50px;
 }
 
 .video-gallery__par{
