@@ -178,25 +178,27 @@ flex-shrink: 0;
 }
 
 .image-container1 {
-    position: absolute;
     top: 70px;
     margin-left: 38px;
+    margin-bottom:33px;
 }
 
 .rowg-3 {
     position: absolute;
-    top: 300px;
+    top: 50px;
     margin-left: 38px;
+    padding: 10px;
 }
 
 .col-12 {
+    position: relative;
     border: none;
     border-radius: 50px;
     width: 308px;
 height: 40px;
 flex-shrink: 0;
 background: #FFF;
-margin-bottom: 6px; 
+margin-bottom: 10px; 
 }
 
 .form-control {
@@ -219,40 +221,42 @@ input::placeholder {
 .form-check {
     margin-top: 24px;
     margin-left: 5px;
+    margin-bottom: 19px;
 }
 .form-check-label {
     color: #FFF;
-font-family: Montserrat;
+font-family:'Montserrat', sans-serif;
 font-size: 10px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin-top: 24px;
 }
 
 .btn-primary {
     width: 308px;
-height: 40px;
-flex-shrink: 0;
+    height: 40px;
+    flex-shrink: 0;
     border-radius: 50px;
-background: #EA5D4A;
-border: none;
-}
-
-.custom-btn {
-    color: #FFF;
+    background: #EA5D4A;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
 text-align: center;
-font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-text-transform: uppercase;
-margin-top: 29px;
+
 }
+
 
 .vector {
     margin-top: 87px;
+    margin-left: -66px;
 }
+
 
 .team__hd{
     color: #8081BD;
