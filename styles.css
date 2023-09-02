@@ -256,25 +256,6 @@ line-height: normal;
     margin-top: 87px;
     margin-left: -66px;
 }
-
-
-.team__hd{
-    color: #8081BD;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;  
-}
-.main__team{
-    margin-left: 50px;
-}
-.arr{
-    width: 60px;
-    height: 60px;
-}
-
-
 .advantages__hd,
 .dop-services__hd,
 .video-gallery__hd {
@@ -461,4 +442,88 @@ line-height: normal;
     top: 450px;
     left: 600px;
     z-index: 1;
+}
+
+.team{
+display: block;
+ width: 1920px;
+height: 6241px;
+flex-shrink: 0;
+background: #FFF;
+}
+
+.block-name{
+color: #8081BD;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 40px;  
+margin-right: 49px;
+}
+.vector1{
+width: 119px;
+height: 133px;
+transform: rotate(-67.732deg);
+flex-shrink: 0;
+fill: #FDDC4E;
+}
+.slider{
+display: flex;
+justify-content: space-between;
+}
+.arr{
+width: 60px;
+height: 60px;
+}
+.teach{
+border-radius: 15px 15px 15px 15px;
+}
+.text1{
+margin-left: 20px;  
+margin-right: 24px;
+color: #8081BD;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.text2{
+margin-left: 20px;  
+margin-right: 24px;
+color: #334155;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.text3{
+margin-left: 20px;  
+margin-right: 24px;
+color: #334155;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.text4{
+margin-left: 20px;  
+margin-right: 24px;
+color: #334155;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.vector2{
+width: 87px;
+height: 81px;
+flex-shrink: 0;
+fill: #79BC6D;
 }
