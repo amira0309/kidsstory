@@ -447,11 +447,10 @@ line-height: normal;
 .team{
 display: block;
  width: 1920px;
-height: 6241px;
+height: 700px;
 flex-shrink: 0;
 background: #FFF;
 }
-
 .block-name{
 color: #8081BD;
 font-family: Montserrat;
@@ -526,4 +525,88 @@ width: 87px;
 height: 81px;
 flex-shrink: 0;
 fill: #79BC6D;
+}
+.content{
+width: 1804px;
+height: 385px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #FFF6D1;
+}
+.text5{
+margin-left: 40px;  
+margin-right: 49px;
+color: #334155;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text6{
+margin-left: 40px;  
+margin-right: 49px;
+color: #334155;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.connection{
+display: flex;
+}
+.required{
+width: 308px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FDDC4E;
+}
+button{
+width: 308px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #EA5D4A;    
+}
+.inside{
+width: 308px;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;  
+}
+.checkbox{
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #334155;
+}
+p{
+margin-left: 40px; 
+width: 1001px;
+color: #334155;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.red{
+margin-left: 40px; 
+color: #EA5D4A;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+ul{
+    margin-left: 40px; 
 }
