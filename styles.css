@@ -256,6 +256,8 @@ line-height: normal;
     margin-top: 87px;
     margin-left: -66px;
 }
+
+/*<-- Начало блока Татьяны -->*/
 .advantages__hd,
 .dop-services__hd,
 .video-gallery__hd {
@@ -265,12 +267,6 @@ line-height: normal;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-
-.main__dop-services,
-.main__video-gallery-advantages {
-    width: 1400px;
-    margin-left: 50px;
 }
 
 .dop-services__container {
@@ -308,15 +304,6 @@ line-height: normal;
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-
-.video-gallery__par{
-    color: black;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .advantages__container {
@@ -396,14 +383,35 @@ line-height: normal;
     padding: 10px 20px;
 }
 
+.main__dop-services,
+.main__video-gallery-advantages {
+    width: 1900px;
+    margin-bottom: 80px;
+}
+
+.main__video-gallery,
+.main__advantages,
+.main__dop-services {
+    margin-left: 251px;
+}
+
 .video-gallery__container {
-    position: relative;
+    position: absolute;
+}
+
+.video-gallery__par{
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .video-gallery__backimage {
     position: relative;
     z-index: -3;
-    top: 300px;
+    top: 250px;
 }
 
 .video-gallery__kindergarten,
@@ -416,8 +424,11 @@ line-height: normal;
 
 .video-gallery__kindergarten {
     top: 100px;
-    left: 50px;
+    left: 10px;
     z-index: -2;
+    background: #D9D9D9;
+    opacity: 0.5;
+    border-radius: 20px;
 }
 
 .video-gallery__mentor {
@@ -428,8 +439,11 @@ line-height: normal;
 
 .video-gallery__teacher {
     top: 100px;
-    left: 900px;
-    z-index: -2; 
+    left: 950px;
+    z-index: -2;
+    background: #D9D9D9;
+    opacity: 0.5;
+    border-radius: 20px;
 }
 
 .video-gallery__Arrow {
@@ -443,6 +457,7 @@ line-height: normal;
     left: 600px;
     z-index: 1;
 }
+/*<-- Конец блока Татьяны -->*/
 
 .team{
 display: block;
