@@ -368,7 +368,7 @@ background: #FFF;
     height: 60px;
 }
 
-
+/*<-- Начало блока Татьяны -->*/
 .advantages__hd,
 .dop-services__hd,
 .video-gallery__hd {
@@ -378,12 +378,6 @@ background: #FFF;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-
-.main__dop-services,
-.main__video-gallery-advantages {
-    width: 1400px;
-    margin-left: 50px;
 }
 
 .dop-services__container {
@@ -421,15 +415,6 @@ background: #FFF;
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-
-.video-gallery__par{
-    color: black;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .advantages__container {
@@ -509,14 +494,35 @@ background: #FFF;
     padding: 10px 20px;
 }
 
+.main__dop-services,
+.main__video-gallery-advantages {
+    width: 1900px;
+    margin-bottom: 80px;
+}
+
+.main__video-gallery,
+.main__advantages,
+.main__dop-services {
+    margin-left: 251px;
+}
+
 .video-gallery__container {
-    position: relative;
+    position: absolute;
+}
+
+.video-gallery__par{
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .video-gallery__backimage {
     position: relative;
     z-index: -3;
-    top: 300px;
+    top: 250px;
 }
 
 .video-gallery__kindergarten,
@@ -529,8 +535,11 @@ background: #FFF;
 
 .video-gallery__kindergarten {
     top: 100px;
-    left: 50px;
+    left: 10px;
     z-index: -2;
+    background: #D9D9D9;
+    opacity: 0.5;
+    border-radius: 20px;
 }
 
 .video-gallery__mentor {
@@ -541,8 +550,11 @@ background: #FFF;
 
 .video-gallery__teacher {
     top: 100px;
-    left: 900px;
-    z-index: -2; 
+    left: 950px;
+    z-index: -2;
+    background: #D9D9D9;
+    opacity: 0.5;
+    border-radius: 20px;
 }
 
 .video-gallery__Arrow {
@@ -556,176 +568,197 @@ background: #FFF;
     left: 600px;
     z-index: 1;
 }
+/*<-- Конец блока Татьяны -->*/
 
+/*<-- Начало блока Ирины -->*/
 .team{
-display: block;
-width: 1920px;
-height: 700px;
-flex-shrink: 0;
-background: #FFF;
+    display: block;
+    width: 1920px;
+    height: 700px;
+    flex-shrink: 0;
+    background: #FFF;
 }
 
 .block-name{
-color: #8081BD;
-font-family: Montserrat;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 40px;  
-margin-right: 49px;
+    color: #8081BD;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 40px;  
+    margin-right: 49px;
 }
+
 .vector1{
-width: 119px;
-height: 133px;
-transform: rotate(-67.732deg);
-flex-shrink: 0;
-fill: #FDDC4E;
+    width: 119px;
+    height: 133px;
+    transform: rotate(-67.732deg);
+    flex-shrink: 0;
+    fill: #FDDC4E;
 }
 
 .slider{
-display: flex;
-justify-content: space-between;
-}
-.arr{
-width: 60px;
-height: 60px;
-}
-.teach{
-border-radius: 15px 15px 15px 15px;
-}
-.text1{
-margin-left: 20px;  
-margin-right: 24px;
-color: #8081BD;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-}
-.text2{
-margin-left: 20px;  
-margin-right: 24px;
-color: #334155;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.text3{
-margin-left: 20px;  
-margin-right: 24px;
-color: #334155;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.text4{
-margin-left: 20px;  
-margin-right: 24px;
-color: #334155;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.vector2{
-width: 87px;
-height: 81px;
-flex-shrink: 0;
-fill: #79BC6D;
-}
-.content{
-width: 1804px;
-height: 385px;
-flex-shrink: 0;
-border-radius: 20px;
-background: #FFF6D1;
-}
-.text5{
-margin-left: 40px;  
-margin-right: 49px;
-color: #334155;
-font-family: Montserrat;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.text6{
-margin-left: 40px;  
-margin-right: 49px;
-color: #334155;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.connection{
-display: flex;
-}
-.required{
-width: 308px;
-height: 40px;
-flex-shrink: 0;
-border-radius: 50px;
-background: #FDDC4E;
-}
-button{
-width: 308px;
-height: 40px;
-flex-shrink: 0;
-border-radius: 50px;
-background: #EA5D4A;    
-}
-.inside{
-width: 308px;
-color: #FFF;
-text-align: center;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;  
-}
-.checkbox{
-width: 20px;
-height: 20px;
-flex-shrink: 0;
-border-radius: 50px;
-background: #334155;
-}
-p{
-margin-left: 40px; 
-width: 1001px;
-color: #334155;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.red{
-margin-left: 40px; 
-color: #EA5D4A;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-ul{
-    margin-left: 40px; 
+    display: flex;
+    justify-content: space-between;
 }
 
+.arr{
+    width: 60px;
+    height: 60px;
+}
+
+.teach{
+    border-radius: 15px 15px 15px 15px;
+}
+
+.text1{
+    margin-left: 20px;  
+    margin-right: 24px;
+    color: #8081BD;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+
+.text2{
+    margin-left: 20px;  
+    margin-right: 24px;
+    color: #334155;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text3{
+    margin-left: 20px;  
+    margin-right: 24px;
+    color: #334155;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text4{
+    margin-left: 20px;  
+    margin-right: 24px;
+    color: #334155;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.vector2{
+    width: 87px;
+    height: 81px;
+    flex-shrink: 0;
+    fill: #79BC6D;
+}
+
+.content{
+    width: 1804px;
+    height: 385px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF6D1;
+}
+
+.text5{
+    margin-left: 40px;  
+    margin-right: 49px;
+    color: #334155;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text6{
+    margin-left: 40px;  
+    margin-right: 49px;
+    color: #334155;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.connection{
+    display: flex;
+}
+
+.required{
+    width: 308px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FDDC4E;
+}
+
+button{
+    width: 308px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #EA5D4A;    
+}
+
+.inside{
+    width: 308px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;  
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #334155;
+}
+
+p{
+    margin-left: 40px; 
+    width: 1001px;
+    color: #334155;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.red{
+    margin-left: 40px; 
+    color: #EA5D4A;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+ul{
+    margin-left: 40px; 
+}    
+/*<-- Конец блока Ирины -->*/
 
 /* <-- start reviews, map, footer -->*/
 .reviews {
