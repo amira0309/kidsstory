@@ -529,7 +529,9 @@ background: #FFF;
 .video-gallery__mentor,
 .video-gallery__teacher,
 .video-gallery__Arrow,
-.video-gallery__Slider {
+.video-gallery__Slider,
+.video-gallery__triangle,
+.video-gallery__figuregreen {
     position: absolute;
 }
 
@@ -568,6 +570,23 @@ background: #FFF;
     left: 600px;
     z-index: 1;
 }
+
+.video-gallery__triangle {
+    z-index: -2;
+    top: 20px;
+    left: 900px;
+}
+
+.video-gallery__figuregreen {
+    z-index: -2;
+    top: 330px;
+    left: 330px;
+}
+
+.video-gallery__imagerose {
+    position: absolute;
+}
+
 /*<-- Конец блока Татьяны -->*/
 
 /*<-- Начало блока Ирины -->*/
