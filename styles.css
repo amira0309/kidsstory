@@ -797,7 +797,6 @@ ul{
 /* <-- start reviews, map, footer -->*/
 .reviews {
     max-width: calc(100vw - 58px - 58px);
-    min-height: 569px;
     border-radius: 20px;
     background: #F2F2FF;
     margin-left: 58px;
@@ -836,7 +835,6 @@ ul{
 .reviews-container__card {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr min-content;
     max-width: calc(100% / 3);;
     max-height: 43%;
     color: #334155;
@@ -847,7 +845,7 @@ ul{
     line-height: normal;
     border-radius: 20px;
     background: #FFF;
-    
+    padding: 0 0 20px 0;
 }
 
 .reviews-container__card_info {
@@ -897,14 +895,13 @@ ul{
     grid-row: 3 / 4;
     color: #334155;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin: 0 0 0 20px;
     word-wrap: break-word;
-    word-break: break-all;
-    
+
 }
 
 .reviews__link {
@@ -915,8 +912,26 @@ ul{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin: 10px 0 0 20px;
-    
+
+}
+
+.reviews__link_first {
+    position: relative;
+    top: -50px;
+    left: 25%;
+}
+
+.reviews__link_second {
+    position: relative;
+    top: -50px;
+    left: 50%;
+}
+
+.reviews__slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 50px 0;
 }
 
 .reviews__prev, .reviews__next {
@@ -931,7 +946,7 @@ ul{
 
 .map {
     max-width: calc(100vw - 58px - 58px);
-    min-height: 560px;
+    min-height: 600px;
     margin: 20px 60px;    
 }
 
