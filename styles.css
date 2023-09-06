@@ -915,6 +915,10 @@ ul{
 
 }
 
+.reviews__link:hover {
+    text-decoration: underline;
+}
+
 .reviews__link_first {
     position: relative;
     top: -50px;
@@ -924,7 +928,7 @@ ul{
 .reviews__link_second {
     position: relative;
     top: -50px;
-    left: 50%;
+    left: 48%;
 }
 
 .reviews__slider {
@@ -938,21 +942,46 @@ ul{
     width: 60px; 
     height: 60px;
     margin-right: 60px;
+    stroke: #8081BD;
+    fill: none;
+}
+
+.reviews__prev:hover, .reviews__next:hover {
+    cursor: pointer;
+    stroke: white;
+    fill: #8081BD;
+
 }
 
 .reviews__prev {
     order: -1;
 }
 
-.map {
+.section-map {
     max-width: calc(100vw - 58px - 58px);
-    min-height: 600px;
-    margin: 20px 60px;    
+    margin: 20px 60px;   
+
 }
 
-.map__marker {
+.map {
     border-radius: 20px;
+    min-height: 50vh;
+    border: none;
 }
 
+.footer {
+    max-width: calc(100vw - 58px - 58px);    
+    display: flex;
+    
+}
 
+.footer__column_first {
+    margin-top: 2px;
+    margin-left: 60px;
+}
+
+.footer__item {
+    list-style-type: none;
+    text-decoration: none;
+}
 /* <-- end reviews, map, footer -->*/
