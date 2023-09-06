@@ -465,7 +465,7 @@ background: #FFF;
     background: #F3ACC8; 
 }
 
-.point__boxcompetitions__img {
+.advantages__point__boxcompetitions__img {
     width: 90%;
     height: 80%;
 }
@@ -480,15 +480,15 @@ background: #FFF;
     padding: 10px 20px;
 }
 
-.main__dop-services,
-.main__video-gallery-advantages {
+.dop-services,
+.video-gallery-advantages {
     width: 1900px;
     margin-bottom: 80px;
 }
 
-.main__video-gallery,
-.main__advantages,
-.main__dop-services {
+.video-gallery,
+.advantages,
+.dop-services {
     margin-left: 251px;
 }
 
@@ -505,7 +505,7 @@ background: #FFF;
     line-height: normal;
 }
 
-.video-gallery__backimage {
+.video-gallery-advantages__backimage {
     position: relative;
     z-index: -3;
     top: 250px;
@@ -569,7 +569,7 @@ background: #FFF;
     left: 330px;
 }
 
-.video-gallery__imagerose {
+.video-gallery-advantages__imagerose {
     position: absolute;
 }
 
