@@ -352,21 +352,7 @@ background: #FFF;
 
 
 
-.team__hd{
-    color: #8081BD;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;  
-}
-.main__team{
-    margin-left: 50px;
-}
-.arr{
-    width: 60px;
-    height: 60px;
-}
+
 
 /*<-- Начало блока Татьяны -->*/
 .advantages__hd,
@@ -607,12 +593,15 @@ background: #FFF;
     line-height: normal;
     margin-left: 40px;  
     margin-right: 49px;
+    margin-bottom: 20px;
 }
 
 .vector1{
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: -4vw;
     width: 119px;
     height: 133px;
-    transform: rotate(-67.732deg);
     flex-shrink: 0;
     fill: #FDDC4E;
 }
@@ -620,9 +609,11 @@ background: #FFF;
 .slider{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .arr{
+    align-items: center;
     width: 60px;
     height: 60px;
 }
@@ -634,6 +625,8 @@ background: #FFF;
 .text1{
     margin-left: 20px;  
     margin-right: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     color: #8081BD;
     font-family: Montserrat;
     font-size: 20px;
@@ -646,6 +639,8 @@ background: #FFF;
 .text2{
     margin-left: 20px;  
     margin-right: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     color: #334155;
     font-family: Montserrat;
     font-size: 20px;
@@ -657,6 +652,8 @@ background: #FFF;
 .text3{
     margin-left: 20px;  
     margin-right: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     color: #334155;
     font-family: Montserrat;
     font-size: 14px;
@@ -668,6 +665,8 @@ background: #FFF;
 .text4{
     margin-left: 20px;  
     margin-right: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     color: #334155;
     font-family: Montserrat;
     font-size: 14px;
@@ -677,6 +676,10 @@ background: #FFF;
 }
 
 .vector2{
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: -12vw;
+    width: 119px;
     width: 87px;
     height: 81px;
     flex-shrink: 0;
@@ -689,11 +692,15 @@ background: #FFF;
     flex-shrink: 0;
     border-radius: 20px;
     background: #FFF6D1;
+    background-image: url(assets/images/noroot\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
 .text5{
     margin-left: 40px;  
     margin-right: 49px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     color: #334155;
     font-family: Montserrat;
     font-size: 40px;
@@ -705,6 +712,8 @@ background: #FFF;
 .text6{
     margin-left: 40px;  
     margin-right: 49px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     color: #334155;
     font-family: Montserrat;
     font-size: 20px;
@@ -719,10 +728,10 @@ background: #FFF;
 
 .required{
     width: 308px;
-    height: 40px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #FDDC4E;
+    margin-left: 40px; 
 }
 
 button{
@@ -735,6 +744,7 @@ button{
 
 .inside{
     width: 308px;
+    height: 40px;
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -743,6 +753,7 @@ button{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;  
+    margin-left: 20px; 
 }
 
 .checkbox{
@@ -751,9 +762,12 @@ button{
     flex-shrink: 0;
     border-radius: 50px;
     background: #334155;
+    margin-left: 40px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-p{
+.black{
     margin-left: 40px; 
     width: 1001px;
     color: #334155;
@@ -776,13 +790,13 @@ p{
 
 ul{
     margin-left: 40px; 
+    font-family: Montserrat;
 }    
 /*<-- Конец блока Ирины -->*/
 
 /* <-- start reviews, map, footer -->*/
 .reviews {
     max-width: calc(100vw - 58px - 58px);
-    min-height: 569px;
     border-radius: 20px;
     background: #F2F2FF;
     margin-left: 58px;
@@ -821,7 +835,6 @@ ul{
 .reviews-container__card {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr min-content;
     max-width: calc(100% / 3);;
     max-height: 43%;
     color: #334155;
@@ -832,7 +845,7 @@ ul{
     line-height: normal;
     border-radius: 20px;
     background: #FFF;
-    
+    padding: 0 0 20px 0;
 }
 
 .reviews-container__card_info {
@@ -882,14 +895,13 @@ ul{
     grid-row: 3 / 4;
     color: #334155;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin: 0 0 0 20px;
     word-wrap: break-word;
-    word-break: break-all;
-    
+
 }
 
 .reviews__link {
@@ -900,8 +912,26 @@ ul{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin: 10px 0 0 20px;
-    
+
+}
+
+.reviews__link_first {
+    position: relative;
+    top: -50px;
+    left: 25%;
+}
+
+.reviews__link_second {
+    position: relative;
+    top: -50px;
+    left: 50%;
+}
+
+.reviews__slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 50px 0;
 }
 
 .reviews__prev, .reviews__next {
@@ -916,7 +946,7 @@ ul{
 
 .map {
     max-width: calc(100vw - 58px - 58px);
-    min-height: 560px;
+    min-height: 600px;
     margin: 20px 60px;    
 }
 
