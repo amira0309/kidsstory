@@ -1,8 +1,4 @@
-body {
-    width: 1920px;
-height: 6241px;
-flex-shrink: 0;
-}
+
 .address {
     display: flex;
     justify-content: right;
@@ -56,7 +52,6 @@ flex-shrink: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
 }
 
@@ -93,8 +88,6 @@ flex-shrink: 0;
 .navigation__button {
     border-radius: 50px;
     background: #8081BD;
-    width: 192px;
-    height: 40px;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
@@ -109,8 +102,6 @@ flex-shrink: 0;
 }
 
 .container {
-    width: 1539px;
-    height: 839.8px;
     flex-shrink: 0;
 }
 
@@ -129,14 +120,6 @@ flex-shrink: 0;
     width: 100%;
     height: auto;
     z-index: -1; 
-    width: 1804px;
-height: 558px;
-flex-shrink: 0;
-}
-
-.image-container {
-    width: 1804px;
-height: 558px;
 flex-shrink: 0;
 }
 
@@ -193,8 +176,6 @@ flex-shrink: 0;
     position: relative;
     border: none;
     border-radius: 50px;
-    width: 308px;
-height: 40px;
 flex-shrink: 0;
 background: #FFF;
 margin-bottom: 10px; 
@@ -233,8 +214,6 @@ margin-top: 24px;
 }
 
 .btn-primary {
-    width: 308px;
-    height: 40px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #EA5D4A;
@@ -258,7 +237,7 @@ line-height: normal;
 
 .Vector {
     position: relative;
-    padding-top: 87px; 
+    margin-top: 87px; 
 }
 
 .extra {
@@ -268,7 +247,7 @@ line-height: normal;
 
 .image-container4 {
     position: absolute;
-    top: 1830px;
+    top: 1226px;
     left: 50px; 
     z-index: 9999;
 }
