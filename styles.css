@@ -557,9 +557,8 @@ background: #FFF;
 /*<-- Начало блока Ирины -->*/
 .team{
     display: block;
-    width: 1920px;
-    height: 700px;
-    flex-shrink: 0;
+    width: 95vw;
+    height: 65vh;
     background: #FFF;
 }
 
@@ -577,11 +576,10 @@ background: #FFF;
 
 .vector1{
     position: absolute;
-    margin-left: 28vw;
-    margin-top: -4vw;
-    width: 119px;
-    height: 133px;
-    flex-shrink: 0;
+    margin-left: 24vw;
+    margin-top: -3vw;
+    width: 8vw;
+    height: 9vh;
     fill: #FDDC4E;
 }
 
@@ -593,8 +591,8 @@ background: #FFF;
 
 .arr{
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 2.5vw;
+    height: 5vh;
 }
 
 .teach{
@@ -656,18 +654,15 @@ background: #FFF;
 
 .vector2{
     position: absolute;
-    margin-left: 70vw;
+    margin-left: 67vw;
     margin-top: -12vw;
-    width: 119px;
-    width: 87px;
-    height: 81px;
-    flex-shrink: 0;
+    width: 5vw;
+    height: 8vh;
     fill: #79BC6D;
 }
 .content{
-    width: 1804px;
-    height: 385px;
-    flex-shrink: 0;
+    width: 95vw;
+    height: 40vh;
     border-radius: 20px;
     background: #FFF6D1;
     background-image: url(assets/images/noroot2.png);
@@ -705,24 +700,22 @@ background: #FFF;
 }
 
 .required{
-    width: 308px;
-    flex-shrink: 0;
+    width: 15vw;
     border-radius: 50px;
     background: #FDDC4E;
     margin-left: 40px; 
 }
 
 button{
-    width: 308px;
-    height: 40px;
-    flex-shrink: 0;
+    width: 15vw;
+    height: 10vh;
     border-radius: 50px;
     background: #EA5D4A;    
 }
 
 .inside{
-    width: 308px;
-    height: 40px;
+    width: 15vw;
+    height: 4vh;
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -735,9 +728,8 @@ button{
 }
 
 .checkbox{
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
+    width: 4vw;
+    height: 2.2vh;
     border-radius: 50px;
     background: #334155;
     margin-left: 40px; 
@@ -747,7 +739,7 @@ button{
 
 .black{
     margin-left: 40px; 
-    width: 1001px;
+    width: 95vw;
     color: #334155;
     font-family: Montserrat;
     font-size: 20px;
