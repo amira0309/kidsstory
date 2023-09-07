@@ -1,8 +1,4 @@
-body {
-    width: 1920px;
-height: 6241px;
-flex-shrink: 0;
-}
+
 .address {
     display: flex;
     justify-content: right;
@@ -56,7 +52,6 @@ flex-shrink: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
 }
 
@@ -93,8 +88,6 @@ flex-shrink: 0;
 .navigation__button {
     border-radius: 50px;
     background: #8081BD;
-    width: 192px;
-    height: 40px;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
@@ -109,8 +102,6 @@ flex-shrink: 0;
 }
 
 .container {
-    width: 1539px;
-    height: 839.8px;
     flex-shrink: 0;
 }
 
@@ -129,14 +120,6 @@ flex-shrink: 0;
     width: 100%;
     height: auto;
     z-index: -1; 
-    width: 1804px;
-height: 558px;
-flex-shrink: 0;
-}
-
-.image-container {
-    width: 1804px;
-height: 558px;
 flex-shrink: 0;
 }
 
@@ -193,8 +176,6 @@ flex-shrink: 0;
     position: relative;
     border: none;
     border-radius: 50px;
-    width: 308px;
-height: 40px;
 flex-shrink: 0;
 background: #FFF;
 margin-bottom: 10px; 
@@ -233,8 +214,6 @@ margin-top: 24px;
 }
 
 .btn-primary {
-    width: 308px;
-    height: 40px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #EA5D4A;
@@ -258,7 +237,7 @@ line-height: normal;
 
 .Vector {
     position: relative;
-    padding-top: 87px; 
+    margin-top: 87px; 
 }
 
 .extra {
@@ -268,7 +247,7 @@ line-height: normal;
 
 .image-container4 {
     position: absolute;
-    top: 1830px;
+    top: 1226px;
     left: 50px; 
     z-index: 9999;
 }
@@ -346,7 +325,7 @@ flex-shrink: 0;
     border-radius: 50px;
 background: #FFF;
 }
-
+/*<-- Конец блока Орынбике -->*/
 
 
 
@@ -465,7 +444,7 @@ background: #FFF;
     background: #F3ACC8; 
 }
 
-.point__boxcompetitions__img {
+.advantages__point__boxcompetitions__img {
     width: 90%;
     height: 80%;
 }
@@ -480,15 +459,15 @@ background: #FFF;
     padding: 10px 20px;
 }
 
-.main__dop-services,
-.main__video-gallery-advantages {
+.dop-services,
+.video-gallery-advantages {
     width: 1900px;
     margin-bottom: 80px;
 }
 
-.main__video-gallery,
-.main__advantages,
-.main__dop-services {
+.video-gallery,
+.advantages,
+.dop-services {
     margin-left: 251px;
 }
 
@@ -505,7 +484,7 @@ background: #FFF;
     line-height: normal;
 }
 
-.video-gallery__backimage {
+.video-gallery-advantages__backimage {
     position: relative;
     z-index: -3;
     top: 250px;
@@ -569,7 +548,7 @@ background: #FFF;
     left: 330px;
 }
 
-.video-gallery__imagerose {
+.video-gallery-advantages__imagerose {
     position: absolute;
 }
 
@@ -796,7 +775,6 @@ ul{
 /* <-- start reviews, map, footer -->*/
 .reviews {
     max-width: calc(100vw - 58px - 58px);
-    min-height: 569px;
     border-radius: 20px;
     background: #F2F2FF;
     margin-left: 58px;
@@ -835,7 +813,6 @@ ul{
 .reviews-container__card {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr min-content;
     max-width: calc(100% / 3);;
     max-height: 43%;
     color: #334155;
@@ -846,7 +823,7 @@ ul{
     line-height: normal;
     border-radius: 20px;
     background: #FFF;
-    
+    padding: 0 0 20px 0;
 }
 
 .reviews-container__card_info {
@@ -896,14 +873,13 @@ ul{
     grid-row: 3 / 4;
     color: #334155;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin: 0 0 0 20px;
     word-wrap: break-word;
-    word-break: break-all;
-    
+
 }
 
 .reviews__link {
@@ -914,29 +890,76 @@ ul{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin: 10px 0 0 20px;
-    
+
+}
+
+.reviews__link:hover {
+    text-decoration: underline;
+}
+
+.reviews__link_first {
+    position: relative;
+    top: -50px;
+    left: 25%;
+}
+
+.reviews__link_second {
+    position: relative;
+    top: -50px;
+    left: 48%;
+}
+
+.reviews__slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 50px 0;
 }
 
 .reviews__prev, .reviews__next {
     width: 60px; 
     height: 60px;
     margin-right: 60px;
+    stroke: #8081BD;
+    fill: none;
+}
+
+.reviews__prev:hover, .reviews__next:hover {
+    cursor: pointer;
+    stroke: white;
+    fill: #8081BD;
+
 }
 
 .reviews__prev {
     order: -1;
 }
 
-.map {
+.section-map {
     max-width: calc(100vw - 58px - 58px);
-    min-height: 560px;
-    margin: 20px 60px;    
+    margin: 20px 60px;   
+
 }
 
-.map__marker {
+.map {
     border-radius: 20px;
+    min-height: 50vh;
+    border: none;
 }
 
+.footer {
+    max-width: calc(100vw - 58px - 58px);    
+    display: flex;
+    
+}
 
+.footer__column_first {
+    margin-top: 2px;
+    margin-left: 60px;
+}
+
+.footer__item {
+    list-style-type: none;
+    text-decoration: none;
+}
 /* <-- end reviews, map, footer -->*/
