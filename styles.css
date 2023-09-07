@@ -942,6 +942,16 @@ ul{
 .footer {
     max-width: calc(100vw - 58px - 58px);    
     display: flex;
+    justify-content: space-around;
+}
+
+.social {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footer__column {
+    list-style-type: none;
     
 }
 
@@ -951,7 +961,26 @@ ul{
 }
 
 .footer__item {
-    list-style-type: none;
     text-decoration: none;
+    color: black;
+}
+
+.footer__item:hover {
+    text-decoration: underline;
+}
+
+.footer__item_first {
+    list-style-type: none;
+    font-weight: 800;
+    color: black;
+}
+
+.footer__vector {
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: 7vw;
+    width: 215px;
+    height: 155px;
+    opacity: 0.7;
 }
 /* <-- end reviews, map, footer -->*/
