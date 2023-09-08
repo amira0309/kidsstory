@@ -350,6 +350,7 @@ background: #FFF;
     flex-direction: row;
     padding: 5px 5px;
     width: 1200px;
+    text-align: center;
 }
 
 .dop-services__point {
@@ -552,6 +553,45 @@ background: #FFF;
     position: absolute;
 }
 
+@media screen and (max-width: 400px) {
+.advantages__hd,
+.dop-services__hd,
+.video-gallery__hd {
+    font-size: 24px;
+}
+
+.dop-services__container {
+    width: 250px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.dop-services__point{
+    margin-bottom: 10px;
+}
+
+.video-gallery__kindergarten,
+.video-gallery__teacher {
+    display: none;
+}
+
+.dop-services,
+.video-gallery-advantages {
+    width: 430px;
+    margin-bottom: 80px;
+}
+
+.dop-services__point__text {
+    font-size: 10px;
+    justify-content: left;
+    margin-left: 5px;
+}
+
+.dop-services__point__box{
+    width: 55.94px;
+    height: 55.54px;
+}
+}
 /*<-- Конец блока Татьяны -->*/
 
 /*<-- Начало блока Ирины -->*/
