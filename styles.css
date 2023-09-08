@@ -130,13 +130,23 @@ flex-shrink: 0;
 }
 
 .Kidsstory {
-    top: 176px;
+    top: 40px;
     left: 193px;
+    color: #334155;
+font-family: 'Montserrat', sans-serif;
+font-size: 96px;
+font-style: normal;
+line-height: normal;
 }
 
 .Englishclub {
-    top: 304px;
+    top: 200px;
     left: 193px;
+    color: #334155;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+line-height: normal;
 }
 
 .Arrows {
@@ -154,7 +164,7 @@ flex-shrink: 0;
 
 .form-container {
     position: absolute;
-    top: 154px;
+    top: 171px;
     margin-left: 1458px;
     padding: 38px;
 
@@ -165,6 +175,24 @@ flex-shrink: 0;
     margin-bottom:33px;
 }
 
+.personal {
+    color: #FFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.form3 {
+    color: #FFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
 .rowg-3 {
     position: absolute;
     top: 50px;
@@ -172,14 +200,32 @@ flex-shrink: 0;
     padding: 10px;
 }
 
-.col-12 {
+.col {
     position: relative;
     border: none;
     border-radius: 50px;
-flex-shrink: 0;
 background: #FFF;
 margin-bottom: 10px; 
+width: 308px;
+height: 40px;
 }
+
+.col1 {
+    width: 308px;
+height: 40px;
+flex-shrink: 0;
+    border-radius: 50px;
+background: #EA5D4A;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
 
 .form-control {
     border: none;
@@ -214,7 +260,6 @@ margin-top: 24px;
 }
 
 .btn-primary {
-    flex-shrink: 0;
     border-radius: 50px;
     background: #EA5D4A;
     border: none;
@@ -257,6 +302,15 @@ line-height: normal;
     margin-bottom: 20px; 
 }
 
+.question {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
 .form-content {
     position: relative;
 }
@@ -296,7 +350,6 @@ margin-bottom: 10px;
 .btn-primary1 {
     width: 308px;
     height: 40px;
-    flex-shrink: 0;
     border-radius: 50px;
     background:#F6B31F;
     border: none;
