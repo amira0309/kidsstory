@@ -334,11 +334,7 @@ padding-left: 193px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-}
-
-.col3 {
-    
+    padding-left: 193px;
 }
 
 .form-control1 {
@@ -351,7 +347,6 @@ padding-left: 193px;
 height: 40px;
 flex-shrink: 0;
 background: #FFF;
-margin-bottom: 10px; 
 }
 
 .form-check1 {
