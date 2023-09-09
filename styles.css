@@ -288,14 +288,12 @@ line-height: normal;
 .extra {
     margin-left: 135px;
     position: relative;
-}
-
-.image-container4 {
 
 }
 
 .image-container4 img {
-    display: block; 
+    display: flex; 
+    width: 100vw;
     margin-bottom: 20px; 
     margin-left: 58px;
 }
@@ -308,6 +306,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal; 
 padding-left: 193px;
+padding-top: 60px;
 }
 
 .phonenumber {
@@ -326,7 +325,7 @@ padding-left: 193px;
 
 .form-two {
     position: absolute;
-    top: 260px;
+    top: 48px;
     left: 50px;
     z-index: 1;
 }
