@@ -410,7 +410,7 @@ background: #FFF;
     display: flex;
     flex-direction: row;
     padding: 5px 5px;
-    width: 1200px;
+    width: 80vw;
     text-align: center;
 }
 
@@ -429,6 +429,9 @@ background: #FFF;
     height: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .dop-services__point__text {
@@ -475,8 +478,8 @@ background: #FFF;
 .advantages__point__boxcompetitions {
     padding: 5px;
     border-radius: 10px;
-    width: 70px;
-    height: 70px;
+    width: 76px;
+    height: 76px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -523,18 +526,20 @@ background: #FFF;
 
 .dop-services,
 .video-gallery-advantages {
-    width: 1900px;
-    margin-bottom: 80px;
+    width: 80vw;
+    margin-bottom: 7vw;
 }
 
 .video-gallery,
 .advantages,
 .dop-services {
-    margin-left: 251px;
+    margin-left: 11vw;
+    width: 80vw;
 }
 
 .video-gallery__container {
     position: absolute;
+    width: 80vw;
 }
 
 .video-gallery__par{
@@ -550,6 +555,7 @@ background: #FFF;
     position: relative;
     z-index: -3;
     top: 250px;
+    width: 92em;
 }
 
 .video-gallery__kindergarten,
@@ -560,6 +566,7 @@ background: #FFF;
 .video-gallery__triangle,
 .video-gallery__figuregreen {
     position: absolute;
+    max-width: 100%; 
 }
 
 .video-gallery__kindergarten {
@@ -573,13 +580,13 @@ background: #FFF;
 
 .video-gallery__mentor {
     top: 70px;
-    left: 380px;
+    left: 280px;
     z-index: -1;
 }
 
 .video-gallery__teacher {
     top: 100px;
-    left: 950px;
+    left: 800px;
     z-index: -2;
     background: #D9D9D9;
     opacity: 0.5;
@@ -588,26 +595,26 @@ background: #FFF;
 
 .video-gallery__Arrow {
     top: 130px;
-    left: 600px;
+    left: 500px;
     z-index: 0;
 }
 
 .video-gallery__Slider {
     top: 450px;
-    left: 600px;
+    left: 500px;
     z-index: 1;
 }
 
 .video-gallery__triangle {
     z-index: -2;
     top: 20px;
-    left: 900px;
+    left: 800px;
 }
 
 .video-gallery__figuregreen {
     z-index: -2;
     top: 330px;
-    left: 330px;
+    left: 230px;
 }
 
 .video-gallery-advantages__imagerose {
@@ -622,7 +629,7 @@ background: #FFF;
 }
 
 .dop-services__container {
-    width: 250px;
+    width: 240px;
     flex-direction: column;
     text-align: left;
 }
@@ -632,14 +639,9 @@ background: #FFF;
 }
 
 .video-gallery__kindergarten,
-.video-gallery__teacher {
+.video-gallery__teacher,
+.video-gallery-advantages__imagerose {
     display: none;
-}
-
-.dop-services,
-.video-gallery-advantages {
-    width: 430px;
-    margin-bottom: 80px;
 }
 
 .dop-services__point__text {
@@ -649,9 +651,68 @@ background: #FFF;
 }
 
 .dop-services__point__box{
-    width: 55.94px;
-    height: 55.54px;
+    width: 40px;
+    height: 40px;
 }
+
+.advantages__par,
+.video-gallery__par {
+    font-size: 15px;
+}
+
+.advantages__container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.advantages__point__text {
+    font-size: 12px;
+}
+
+.advantages__point {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.advantages__point__boxmaster,
+.advantages__point__boxgames,
+.advantages__point__boxconference,
+.advantages__point__boxexperiments,
+.advantages__point__boxconcerts,
+.advantages__point__boxcompetitions {
+    width: 56px;
+    height: 56px;
+}
+
+.video-gallery__mentor {
+    top: 8px;
+    left: 0px;
+}
+
+.video-gallery-advantages__backimage {
+    top: 80px;
+    height: 242px;
+}
+
+.video-gallery__Slider {
+    top: 170px;
+    left: 50px;
+}
+
+.video-gallery__triangle {
+    top: -30px;
+    left: 200px;
+    width: 40vw;
+}
+
+.video-gallery__figuregreen {
+    top: 100px;
+    left: -90px;
+    width: 30vw;
+}
+
 }
 /*<-- Конец блока Татьяны -->*/
 
