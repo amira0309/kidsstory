@@ -104,10 +104,9 @@ body {
     width: 5vw;
 }
 
-.navigation__button {
+.navigation__button button {
     border-radius: 50px;
     background: #8081BD;
-    flex-shrink: 0;
     color: #FFF;
     text-align: center;
     font-family:'Montserrat', sans-serif;
@@ -198,7 +197,7 @@ line-height: normal;
 
 .image-container1 {
     top: 50px;
-    margin-bottom:33px;
+    margin-bottom:20px;
 }
 
 .personal {
@@ -276,7 +275,6 @@ font-size: 0.6rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-
 }
 
 .container-two {
