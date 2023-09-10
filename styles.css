@@ -562,7 +562,7 @@ background: #FFF;
     position: relative;
     z-index: -3;
     top: 250px;
-    width: 92em;
+    width: 99vw;
 }
 
 .video-gallery__kindergarten,
@@ -620,7 +620,7 @@ background: #FFF;
 
 .video-gallery__figuregreen {
     z-index: -2;
-    top: 330px;
+    top: 300px;
     left: 230px;
 }
 
