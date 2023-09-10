@@ -136,7 +136,7 @@ body {
     width: 100%;
     height: auto;
     z-index: -1; 
-flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .Kidsstory,
@@ -628,99 +628,6 @@ background: #FFF;
     position: absolute;
 }
 
-@media screen and (max-width: 400px) {
-.advantages__hd,
-.dop-services__hd,
-.video-gallery__hd {
-    font-size: 24px;
-}
-
-.dop-services__container {
-    width: 240px;
-    flex-direction: column;
-    text-align: left;
-}
-
-.dop-services__point{
-    margin-bottom: 10px;
-}
-
-.video-gallery__kindergarten,
-.video-gallery__teacher,
-.video-gallery-advantages__imagerose {
-    display: none;
-}
-
-.dop-services__point__text {
-    font-size: 10px;
-    justify-content: left;
-    margin-left: 5px;
-}
-
-.dop-services__point__box{
-    width: 40px;
-    height: 40px;
-}
-
-.advantages__par,
-.video-gallery__par {
-    font-size: 15px;
-}
-
-.advantages__container {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.advantages__point__text {
-    font-size: 12px;
-}
-
-.advantages__point {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.advantages__point__boxmaster,
-.advantages__point__boxgames,
-.advantages__point__boxconference,
-.advantages__point__boxexperiments,
-.advantages__point__boxconcerts,
-.advantages__point__boxcompetitions {
-    width: 56px;
-    height: 56px;
-}
-
-.video-gallery__mentor {
-    top: 8px;
-    left: 0px;
-}
-
-.video-gallery-advantages__backimage {
-    top: 80px;
-    height: 242px;
-}
-
-.video-gallery__Slider {
-    top: 170px;
-    left: 50px;
-}
-
-.video-gallery__triangle {
-    top: -30px;
-    left: 200px;
-    width: 40vw;
-}
-
-.video-gallery__figuregreen {
-    top: 100px;
-    left: -90px;
-    width: 30vw;
-}
-
-}
 /*<-- Конец блока Татьяны -->*/
 
 /*<-- Начало блока Ирины -->*/
@@ -1159,12 +1066,102 @@ ul{
     max-height: 500px;
 }
 }
-@media screen and (min-width:1440px){
 
-}
-@media screen and (max-width:768px){
+@media screen and (max-width: 500px) {
+    .advantages__hd,
+    .dop-services__hd,
+    .video-gallery__hd {
+        font-size: 24px;
+    }
+    
+    .dop-services__container {
+        width: 240px;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .dop-services__point{
+        margin-bottom: 10px;
+    }
+    
+    .video-gallery__kindergarten,
+    .video-gallery__teacher,
+    .video-gallery-advantages__imagerose {
+        display: none;
+    }
+    
+    .dop-services__point__text {
+        font-size: 10px;
+        justify-content: left;
+        margin-left: 5px;
+    }
+    
+    .dop-services__point__box{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .advantages__par,
+    .video-gallery__par,
+    .Englishclub {
+        font-size: 15px;
+    }
+    
+    .advantages__container {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .advantages__point__text {
+        font-size: 12px;
+    }
+    
+    .advantages__point {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .advantages__point__boxmaster,
+    .advantages__point__boxgames,
+    .advantages__point__boxconference,
+    .advantages__point__boxexperiments,
+    .advantages__point__boxconcerts,
+    .advantages__point__boxcompetitions {
+        width: 56px;
+        height: 56px;
+    }
+    
+    .video-gallery__mentor {
+        top: 8px;
+        left: 0px;
+    }
+    
+    .video-gallery-advantages__backimage {
+        top: 80px;
+        height: 242px;
+    }
+    
+    .video-gallery__Slider {
+        top: 170px;
+        left: 50px;
+    }
+    
+    .video-gallery__triangle {
+        top: -30px;
+        left: 200px;
+        width: 40vw;
+    }
+    
+    .video-gallery__figuregreen {
+        top: 100px;
+        left: -90px;
+        width: 30vw;
+    }
 
-}
-@media screen and (max-width:320px){
+    .Kidsstory {
+        font-size: 40px;
+    }
 
-}
+    }
