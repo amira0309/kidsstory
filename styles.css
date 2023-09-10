@@ -1067,7 +1067,7 @@ ul{
 }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     .advantages__hd,
     .dop-services__hd,
     .video-gallery__hd {
